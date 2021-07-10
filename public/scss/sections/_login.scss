@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+.card {
+    padding-top: 5%;
+    margin-top: 12.5%;
+    width: 75%;
+    height: auto;
+}
+.overlay {
+    height: 50%;
+    width: 50%;
+    .img {
+        margin-left: 20%;
+        position: absolute;
+        z-index: 5;
+    }
+}
